@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<name>jenkins-app</name>
 	<description>jenkins project for Spring Boot</description>
-	
+	<packaging>war</packaging>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.name}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
