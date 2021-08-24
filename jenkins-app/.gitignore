@@ -6,6 +6,7 @@ target/
 
 ###
 *.xml
+**/.mvn/
 
 ### IntelliJ IDEA ###
 .idea
